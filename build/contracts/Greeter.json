@@ -1,0 +1,122 @@
+{
+  "contractName": "Greeter",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Greeter.sol\":\"Greeter\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Greeter.sol\":{\"keccak256\":\"0xd9f4a7c201b98ec842db3b0ba89998fbfcc74c6734b719187e38c0c152b5f886\",\"urls\":[\"bzz-raw://dd9af05e13dc3877ce2e1c7fa805c9795119f40ccbcf15c6c2ae82b01051dfd5\",\"dweb:/ipfs/QmeRnSuz3WsBwnVuJ5QZsGfDNHPuVbE53z4i3V5KKpnZQS\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a72315820e57394fbda38d7859c907f65b0e01ceda14f1a7f7afbf1a892e9afc68ceb20fd64736f6c63430005100032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a72315820e57394fbda38d7859c907f65b0e01ceda14f1a7f7afbf1a892e9afc68ceb20fd64736f6c63430005100032",
+  "sourceMap": "35:21:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;35:21:0;;;;;;;",
+  "deployedSourceMap": "35:21:0:-;;;;;",
+  "source": "pragma solidity >= 0.4.0 < 0.7.0;\n\ncontract Greeter {\n\n}",
+  "sourcePath": "/Users/subaru/dev_2023/greeter_eth/contracts/Greeter.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Greeter.sol",
+    "exportedSymbols": {
+      "Greeter": [
+        2
+      ]
+    },
+    "id": 3,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".0",
+          "<",
+          "0.7",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:33:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2,
+        "linearizedBaseContracts": [
+          2
+        ],
+        "name": "Greeter",
+        "nodeType": "ContractDefinition",
+        "nodes": [],
+        "scope": 3,
+        "src": "35:21:0"
+      }
+    ],
+    "src": "0:56:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/Greeter.sol",
+      "exportedSymbols": {
+        "Greeter": [
+          2
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            ">=",
+            "0.4",
+            ".0",
+            "<",
+            "0.7",
+            ".0"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:33:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            2
+          ],
+          "name": "Greeter",
+          "nodes": [
+            null
+          ],
+          "scope": 3
+        },
+        "id": 2,
+        "name": "ContractDefinition",
+        "src": "35:21:0"
+      }
+    ],
+    "id": 3,
+    "name": "SourceUnit",
+    "src": "0:56:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.15",
+  "updatedAt": "2023-08-14T23:08:22.900Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
